@@ -12,12 +12,11 @@ def main():
         choice = input("Pick a number:")
 
         if choice == "1": #Carlos you are gonna be number 7: Angels of Defiance
-            print("Imperial Fists info:")
-            print("Primarch: Rogal Dorn")
-            print("Codex: They follow it")
-            print("Colors: Yellow")
-            print("Known for: Fortifications")
-
+            print("Angels of Defiance info:")
+            print("Primarch: Lion El'Jonson")
+            print("Codex: Dark Angels Successor")
+            print("Colors: Dark Green and Black")
+            print("Known for: Unyielding resolve")
 
         elif choice == "2": #Caden you will be number 57: Storm Giants
             print("Black Templars info:")
