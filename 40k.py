@@ -20,11 +20,14 @@ def main():
 
 
         elif choice == "2": #Caden you will be number 57: Storm Giants
-            print("Black Templars info:")
-            print("Primarch: From Rogal Dorn")
-            print("Codex: They don't follow it")
-            print("Colors: Black/White")
-            print("Known for: Crusades")
+            print("Chapter:", "Storm giants")
+            print("Follows Codex:", "true")
+            print("Primarch:", "roboute Guilliman")
+            print("Successor of:", "Ultramarines")
+            print("Founding:", "the storm giants are the know successor of the ultramarines")
+            print("Important Figures:", "Captain Thalos, Chief Librarian Kordus")
+            print("Home World:", "unknown")
+            print("Known For:", "how skilled they are in war")
 
 
         elif choice == "3": #Jonas you will be number 71: Minotaurs
