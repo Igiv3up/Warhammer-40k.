@@ -6,18 +6,25 @@ def main():
 
         print("Space marine chapter profiles") #Streling will number 33:  Brazen Claws
         print("1. Imperial Fists")
+        print("7. Angels of Defiance")
         print("2. Black Templars")
         print("3. Exit")
 
         choice = input("Pick a number:")
 
-        if choice == "1": #Carlos you are gonna be number 7: Angels of Defiance
+        if choice == "1":
             print("Imperial Fists info:")
             print("Primarch: Rogal Dorn")
             print("Codex: They follow it")
             print("Colors: Yellow")
             print("Known for: Fortifications")
 
+        elif choice == "7": #Carlos you are gonna be number 7: Angels of Defiance
+            print("Angels of Defiance info:")
+            print("Primarch: Lion El'Jonson")
+            print("Codex: Dark Angels Successor")
+            print("Colors: Dark Green and Black")
+            print("Known for: Unyielding resolve")
 
         elif choice == "2": #Caden you will be number 57: Storm Giants
             print("Black Templars info:")
